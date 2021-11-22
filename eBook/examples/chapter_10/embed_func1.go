@@ -19,6 +19,7 @@ func main() {
 	// c.log = new(Log)
 	// c.log.msg = "1 - Yes we can!"
 	// shorter:
+	//testservicestage
 	c := &Customer{"Barak Obama", &Log{"1 - Yes we can!"}}
 	// fmt.Println(c)   // &{Barak Obama 1 - Yes we can!}
 	c.Log().Add("2 - After me the world will be a better place!")
