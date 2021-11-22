@@ -42,4 +42,5 @@ func (c *Customer) Log() *Log {
 /* Output:
 1 - Yes we can!
 2 - After me the world will be a better place!
+3
 */
